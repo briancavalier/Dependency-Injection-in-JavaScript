@@ -1,5 +1,3 @@
-function WelcomeController(Greeter) {
+module.exports = function WelcomeController(Greeter) {
     console.log(Greeter.greet());
 };
-
-Injector.process(WelcomeController);

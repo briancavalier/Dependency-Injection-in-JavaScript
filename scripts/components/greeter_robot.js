@@ -1,5 +1,3 @@
-var RobotGreeter = {
-  greet: function() {
+exports.greet = function() {
     return 'Domo Arigato';
-  }
 };

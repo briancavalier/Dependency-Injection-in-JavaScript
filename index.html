@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Dependency Injection with JavaScript</title>
+        <script src="lib/curl/src/curl.js"></script>
+        <script src="scripts/loader.js"></script>
     </head>
     <body>
         <p>This page demonstrates how Dependency Injection is used to load a different welcome message (there are two messages that could be loaded).</p>
         <p>The example code is silly in that it randomly decides which welcome message to show (so it should change between page refreshes)</p>
         <p>Check the <code>console.log</code>'s to see the welcome message (you might have to refresh a couple of times to see the different welcome message)</p>
-        <script src="scripts/loader.js" data-main="app"></script> <!-- you might load different 'apps' on different pages -->
     </body>
 </html>
